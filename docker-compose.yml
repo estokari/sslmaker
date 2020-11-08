@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+  
+  sslmaker:
+    build: .
+    container_name: sslmaker
+    volumes:
+      - ./certs:/etc/ssl/certs
+
+
+
+      
